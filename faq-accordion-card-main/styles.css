@@ -1,0 +1,61 @@
+.attribution { 
+    font-size: 11px;
+    text-align: center
+}
+.attribution a { 
+color: hsl(228, 45%, 44%)
+}
+
+body {
+    background: radial-gradient(hsl(273, 75%, 66%) ,hsl(240, 73%, 65%));
+}
+
+.container {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    width: 1120px;
+    height: 520px;
+    margin: 100px auto;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.desktop-img {
+    width: 50%;
+}
+
+.sub-container {
+    width: 50%;
+}
+
+.woman-img {
+    margin-left: -80px;
+    margin-top: 50px;
+}
+
+.box-img {
+    position: absolute;
+    z-index: 1;
+    top: 283px;
+    left: 140px;
+}
+
+.shadow {
+    position: absolute;
+    left: -160px;
+    bottom: -15px;
+    width: 50%;
+}
+
+.faq-label {
+    line-height: 35px;
+}
+
+.faq-p {
+    display: none;
+}
+
+.unhidden {
+    display: block;
+}
